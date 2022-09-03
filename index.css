@@ -1,0 +1,59 @@
+/*reset code starts from here */
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/*reset code ends from here */
+h1{
+    text-align:center;
+    font-size: 3rem;
+}
+/*post starts from here  */
+.posts{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.post{
+    width: 23%;
+    margin: 0.1rem;
+    box-shadow:0 4px 16px 0  rgba(0,.0,.0);
+    padding: 1rem;
+    transition: 0.4s;
+    margin: 10px;
+    background-color: aqua;
+}
+.post:hover{
+    box-shadow: 0 8px  16px 0 rgba(0,.0,.0,.03);
+    background-color: cadetblue;
+}
+/*post starts from here  **/
+
+/*responsive starts from here **/
+@media screen and (max-width:992px){
+    body{
+    background-color: bisque;
+    width: 48%;
+    margin: 0.3rem;
+    box-shadow:0 4px 16px 0  rgba(0,.0,.0);
+    padding: 1rem;
+    transition: 0.4s;
+    margin: 10px;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+    background-color: bisque;
+    width: 100%;
+    margin: 0.3rem;
+    box-shadow:0 4px 16px 0  rgba(0,.0,.0);
+    padding: 1rem;
+    transition: 0.4s;
+    margin: 10px;
+    }
+}
+/*responsive ends from here **/
